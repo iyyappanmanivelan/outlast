@@ -1,0 +1,274 @@
+html , body{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Chakra Petch", serif !important;
+  font-weight: 600;
+  font-style: normal;
+  overflow-x: hidden !important;
+}
+a{
+  text-decoration: none;
+}
+
+.outlast_logo img{
+  width: 80px;
+
+}
+.overlay{
+  top: 0px;
+  background: linear-gradient(27deg, black, transparent);
+  width: 100%;
+  height: 100%;
+}
+.pagemenu a {
+  font-weight: 650;
+  cursor: pointer;
+}
+.phone h4 , .mail h4{
+  font-size: 16px;
+}
+.tophead{ 
+  background-color: #e0d39c;
+
+}
+.register button , .register button:hover , .register button:active{
+  font-weight: 550;
+    color: white;
+    background-color: #bc9c23;
+}
+.banner-content{
+  top: 35%;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+}
+.bc-1 h3{
+  font-size: 90px;
+  font-weight: 650;
+  color: white;
+}
+.bc-1 h3:nth-child(1){
+  color: #e0d39b;
+}
+.fticon img{
+  width: 24px;
+}
+.gt-title h4{
+  font-weight: 650;
+  color: #bc9c23;
+  font-size: 23px;
+}
+.getknow-sub h3 , .programm-sub h3 , .gt-subtitle h3 , .test-title h3 , .latest-title h3 , .jn-title h3{
+  font-weight: 650; 
+  font-size: 40px;
+}
+.jn-title h3{
+  color: #e0d39b;
+}
+.hc-img img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.head-coach {
+  border: 2px solid #bc9c23;
+  padding: 35px;
+  border-radius: 0px 40px 0px 40px;
+}
+.program{
+  background-color: #05508b14;
+  margin: 60px 0px;
+  padding: 60px 0px;
+}
+.pgt img{
+  width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.pg-title h3{
+  font-weight: 650;
+  font-size: 26px;
+}
+.pgt h4{
+  font-size: 17px;
+  font-weight: 550;
+  margin-bottom: 0px;
+  padding-top: 2px;
+}
+.pgt{
+  margin: 15px 0px;
+
+}
+
+
+.pgbox{
+  background-color: #e0d39b;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  padding: 30px;
+  border-radius: 0px 40px 0px 40px;
+  height: 640px;
+}
+.player-growth{
+  top: 64%;
+  display: flex;
+  align-items: center;
+  width: 640px;
+  justify-content: space-around;
+  background-color: #e0d39c;
+  left: 38%;
+  padding: 18px 5px;
+  border-radius: 0px 20px 0px 20px;
+}
+.plyr h4{
+  font-size: 45px;
+  font-weight: 650;
+  color: white;
+}
+.plyr p{
+  font-size: 18px;
+}
+.acplyr{
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0px 15px;
+}
+.whyjoin-img img{
+  height: 430px;
+  object-fit: cover;
+}
+.whyjoin-img img{
+  border-radius: 0px 20px 0px 20px;
+}
+.wyj-icon{
+  top: 55px;
+  left: -20px;
+  width: 57px;
+  padding: 9px;
+  background-color: #e0d39b;
+  border-radius: 30px;
+}
+.wyj-box{
+ border: 2px solid #bc9c23;
+  width: 100%;
+  height: 190px;
+  padding: 50px;
+    border-radius: 0px 20px 0px 20px;
+    
+}
+.wyj-box:hover{
+  box-shadow: rgba(142, 142, 142, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.wyj-box h2{
+  font-size: 23px;
+    font-weight: 650;
+}
+.test-img img{
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
+}
+.overlay2{
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #00000094;
+}
+.testmonal-info{
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.test-title h3{
+  color: #e0d39b;
+}
+.revimg img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 60px;
+}
+.start h5{
+  font-size: 16px
+}
+.news-img img{
+  width: 1000px;
+  border-radius: 0px 20px 0px 20px;
+  padding: 10px;
+}
+.news-content h6{
+  font-size: 15px;
+}
+.news-content h5{
+  font-weight: 650;
+  font-size: 19px;
+}
+.news-content p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.news-box{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.news-box:hover .news-img img{
+  rotate: -5deg;
+  transition: all 0.5s ease-in-out;
+}
+.news-img img{
+  transition: all 0.5s ease-in-out;
+}
+
+.register-now button{
+  background: linear-gradient(#bc9c23 , #e0d39b , #e0d39c);
+  padding: 10px 25px;
+  border-radius: 0px 20px 0px 20px;
+  font-weight: 650;
+  border: none;
+}
+.frmae-points {
+  top: 120px;
+  width: 800px;
+  left: 100px;
+}
+.frmae img{
+  height: 500px;
+  object-fit: cover;
+}
+.footer-title h3{
+  color: #e0d39b;
+  font-size: 22px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.fl-link h6{
+  font-size: 14px;
+  padding: 3px;
+}
+
+.footer-link h4{
+  font-size: 17px;
+  margin: 0px;
+  color: #bc9c23;
+  padding: 3px 5px;
+  background-color: #ffff;
+  border-radius: 50px;
+}
+.about-title{
+  z-index: 9999;
+  top: 30%;
+  color: white;
+  width: 50%;
+  left: 9%;
+}
+.about-title h3{
+  font-size: 70px;
+  font-weight: 650;
+}
+.about-img img{
+  height: 550px;
+  object-fit: cover;
+}

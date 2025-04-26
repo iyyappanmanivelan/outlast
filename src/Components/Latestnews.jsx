@@ -3,20 +3,20 @@ import { Calendar } from "react-bootstrap-icons";
 
 function Latestnews() {
   return (
-    <section className="my-5">
+    <section className="updown-space" style={{backgroundColor:"rgb(12, 12, 12)"}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="getknow d-flex align-items-center justify-content-start gap-3 ">
+          <div className="getknow d-flex align-items-center gap-3 ">
               <div className="fticon">
-                <img src="\assets\football.png" className="img-fluid" />
+                <img src="\assets\football-og.png" className="img-fluid" />
               </div>
               <div className="gt-title">
-                <h4 className="m-0">Our Programms</h4>
+                <h4 className="m-0 cg">Our Lastes Blogs !</h4>
               </div>
             </div>
             <div className="latest-title my-4">
-                <h3>Check Out Our Latest News and Article</h3>
+                <h3 className="text-light">Check Out Our Latest News and Article</h3>
             </div>
             <div className="news-box d-flex gap-4">
                 <div className="news-img">
@@ -33,7 +33,7 @@ function Latestnews() {
             </div>
           </div>
           <div className="col-lg-3">
-          <div className="news-box ">
+          <div className="news-box bg-light h-100">
                 <div className="news-img text-center">
                     <img src="\assets\ban1.jpg" className="img-fluid"/>
                 </div>
@@ -48,7 +48,7 @@ function Latestnews() {
             </div>
           </div>
           <div className="col-lg-3">
-          <div className="news-box ">
+          <div className="news-box bg-light h-100 ">
                 <div className="news-img text-center">
                     <img src="\assets\ban1.jpg" className="img-fluid"/>
                 </div>

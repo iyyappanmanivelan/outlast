@@ -2,84 +2,76 @@ import React from "react";
 import { Facebook, Instagram, Twitter, Youtube } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
-
-
-
 function Navbar() {
   return (
-    <section className="navhead">
-      <nav class="navbar navbar-expand-lg  ">
-        <div class="container">
+    <section className="navhead" style={{ backgroundColor: "#222121" }}>
+      <div className="container">
+        <nav
+          className="navbar navbar-expand-lg "
+          style={{ backgroundColor: "#222121" }}
+        >
+          <Link to="/">
+            <a className="navbar-brand">
+              <div className="outlast_logo">
+                <img src="\assets\outlast_logo.png" className="img-fluid" />
+              </div>
+            </a>
+          </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse d-flex justify-content-between "
-            id="navbarNav"
+            className="collapse navbar-collapse navmain justify-content-end"
+            id="navbarNavDropdown"
           >
-            <div className="outlast_logo">
-              <img src="\assets\outlast_logo.png" className="img-fluid" />
-            </div>
-            <div>
-              <ul class="navbar-nav pagemenu gap-5">
-              <Link to="/">
-                  <a class="nav-link active" aria-current="page"  >
-                    HOME
-                  </a>
-                  </Link>
-                <li class="nav-item">
-                  <Link to="/about">
-                  <a class="nav-link active" aria-current="page"  >
-                    ABOUT
-                  </a>
-                  </Link>
-                
-                </li>
-                <li class="nav-item">
-                <Link to="/match">
-                  <a class="nav-link active" aria-current="page"  >
-                    MATCH
-                  </a>
-                  </Link>
-                </li>
-                <li class="nav-item">
+            <ul className="navbar-nav pagemenu gap-2">
+              <li className="nav-item active">
+                <Link to="/">
+                  <a className="nav-link">Home</a>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/about">
+                  {" "}
+                  <a className="nav-link">About Us</a>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/programm">
+                  {" "}
+                  <a className="nav-link">Our Programs</a>
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/league">
-                  <a class="nav-link active" aria-current="page"  >
-                    LEAGUE STRUCTURE
-                  </a>
-                  </Link>
-                </li>
-                <li class="nav-item">
-                <Link to="/branch">
-                  <a class="nav-link active" aria-current="page"  >
-                    BRANCH
-                  </a>
-                  </Link>
-                </li>
-                <li class="nav-item">
-                <Link to="/contacts">
-                  <a class="nav-link active" aria-current="page"  >
-                    CONTACT US
-                  </a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="register">
-              <button className="btn">Register Now</button>
-            </div>
-       
+                  {" "}
+                  <a className="nav-link">Our Leagues</a>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/contact">
+                  {" "}
+                  <a className="nav-link">Contact Us</a>
+                </Link>
+              </li>
+            </ul>
+            <div className="register-now">
+                <button className="btn">Register Now</button>
+              </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </section>
   );
 }

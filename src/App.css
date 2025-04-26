@@ -8,21 +8,42 @@ html , body{
 }
 a{
   text-decoration: none;
+  color: #000 !important;
+}
+.navbar{
+  line-height: 0px;
+}
+.tm-pic{
+  width: 100px;
+}
+.tm-name h5{
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .outlast_logo img{
   width: 80px;
-
 }
 .overlay{
   top: 0px;
-  background: linear-gradient(27deg, black, transparent);
+ background:  linear-gradient(27deg, #00000094, #000000bf, #000000cf, #000000ba,  #000000ba,  #000000ba,  #000000ba,  #000000ba,  #000000ba,transparent);
   width: 100%;
   height: 100%;
 }
-.pagemenu a {
-  font-weight: 650;
-  cursor: pointer;
+.navmain{
+  gap: 13%;
+}
+.nav-link{
+  text-align: center;
+  font-size: 18px;
+  width: 140px;
+  background: linear-gradient( to right , #bc9c23, #e0d39b, #e0d39c) !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+.pagemenu a{
+  font-size: 18px;
+  font-weight: 600;
 }
 .phone h4 , .mail h4{
   font-size: 16px;
@@ -48,15 +69,15 @@ a{
   color: white;
 }
 .bc-1 h3:nth-child(1){
-  color: #e0d39b;
+  color:#e0d39b;
 }
 .fticon img{
-  width: 24px;
+  width: 40px;
 }
 .gt-title h4{
-  font-weight: 650;
+  font-weight: 750;
   color: #bc9c23;
-  font-size: 23px;
+  font-size: 40px;
 }
 .getknow-sub h3 , .programm-sub h3 , .gt-subtitle h3 , .test-title h3 , .latest-title h3 , .jn-title h3{
   font-weight: 650; 
@@ -72,26 +93,28 @@ a{
   border-radius: 50px;
 }
 .head-coach {
-  border: 2px solid #bc9c23;
   padding: 35px;
   border-radius: 0px 40px 0px 40px;
+  box-shadow: rgb(255 242 242 / 74%) -1px 1px 15px 4px;
+  background-color: #000;
 }
 .program{
   background-color: #05508b14;
-  margin: 60px 0px;
-  padding: 60px 0px;
 }
 .pgt img{
-  width: 25px;
-    height: 25px;
+  width: 40px;
+    height: 40px;
     object-fit: cover;
 }
 .pg-title h3{
   font-weight: 650;
-  font-size: 26px;
+  font-size: 35px;
+  background-image: linear-gradient(#bc9c23, #e0d39b, #e0d39c) !important;
+  color: transparent !important;
+  background-clip: text !important;
 }
 .pgt h4{
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 550;
   margin-bottom: 0px;
   padding-top: 2px;
@@ -102,13 +125,29 @@ a{
 }
 
 
-.pgbox{
+/* .pgbox{
   background-color: #e0d39b;
   border: none;
   transition: all 0.5s ease-in-out;
   padding: 30px;
   border-radius: 0px 40px 0px 40px;
   height: 640px;
+} */
+
+.lvl1 video{
+  width: 100%;
+  height: 300px !important;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+}
+.programm-card{
+  padding: 35px;
+  border-radius: 0px 40px 0px 40px;
+  box-shadow: rgb(255 242 242 / 74%) -1px 1px 15px 4px;
+  background-color: #000;
+  height: 650px;
+  padding: 50px 60px;
 }
 .player-growth{
   top: 64%;
@@ -116,7 +155,7 @@ a{
   align-items: center;
   width: 640px;
   justify-content: space-around;
-  background-color: #e0d39c;
+  background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
   left: 38%;
   padding: 18px 5px;
   border-radius: 0px 20px 0px 20px;
@@ -135,7 +174,7 @@ a{
   padding: 0px 15px;
 }
 .whyjoin-img img{
-  height: 430px;
+  height: 500px;
   object-fit: cover;
 }
 .whyjoin-img img{
@@ -157,6 +196,12 @@ a{
     border-radius: 0px 20px 0px 20px;
     
 }
+
+.cg{
+  background-image: linear-gradient(#bc9c23, #e0d39b, #e0d39c) !important;
+  color: transparent !important;
+  background-clip: text !important;
+}
 .wyj-box:hover{
   box-shadow: rgba(142, 142, 142, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -173,7 +218,7 @@ a{
   top: 0px;
   width: 100%;
   height: 100%;
-  background-color: #00000094;
+  background-color: #000000d4;
 }
 .testmonal-info{
   top: 0px;
@@ -212,6 +257,7 @@ a{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 25px 20px;
   border-radius: 20px;
+  background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
   cursor: pointer;
 }
 .news-box:hover .news-img img{
@@ -259,16 +305,226 @@ a{
 }
 .about-title{
   z-index: 9999;
-  top: 30%;
+  top: 25%;
   color: white;
+  width: 100%;
+  left: 0px;
+
+}
+.about-title p{
   width: 50%;
-  left: 9%;
+  font-size: 30px;
 }
 .about-title h3{
-  font-size: 70px;
+  font-size: 130px;
   font-weight: 650;
 }
 .about-img img{
   height: 550px;
   object-fit: cover;
+}
+.updown-space{
+  padding: 100px 0px;
+}
+
+.title-space{
+  margin-bottom: 15px;
+}
+.story-sec h5{
+  line-height: 130%;
+}
+/* .value-img{
+  width: 100%;
+}
+.value-img img{
+  width: 100%;
+  height: 500px !important;
+  object-fit: cover;
+}
+.cube-slide{
+  margin: 100px 50px
+}
+
+.vp-icon img{
+  width: 60px !important;
+  height: 50px !important;
+}
+.vp-icon{
+  border-radius: 100px;
+  padding: 10px 30px;
+}
+.overlay{
+  top: 0px;
+  left: 0px;
+  background-color: #e0d39b;
+  width: 0px;
+  height: 100%;
+  border-radius: 100px;
+}
+.u-box{
+  padding: 80px;
+  background-color: #9ecefe;
+} */
+
+
+.common-btn{
+  font-size: 18px;
+  font-weight: 650;
+  padding: 10px 25px;
+}
+.choose-title h3{
+  font-weight: 650;
+  font-size: 40px;
+  width: 600px;
+}
+.cc-img img{
+  width: 50px;
+}
+.cc-title{
+  font-size: 25px;
+  font-weight: 650;
+  height: 80px;
+  margin: 20px 0px;
+}
+.choose-bg{
+  background: url('/public/assets/chhose-bg.jpg');
+  height: 1200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.choose-card{
+  height:300px ;
+}
+.overlay-3{
+  background-color: #ffe98dbf;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+
+.choose-content{
+  width: 100% !important;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.plyr-img img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.values-title h4{
+  font-size: 25px;
+  width: 1000px;
+  line-height: 170%;
+  margin: 80px 0px;
+}
+.Guided-title h4{
+  font-size: 50px;
+  font-weight: 650;
+  margin: 80px 0px;
+  color: lightgoldenrodyellow;
+}
+.plyr-dtl h6{
+  font-size: 20px;
+}
+.plyr-dtl h5{
+  font-size: 25px;
+  font-weight: 650;
+}
+.img-card img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover
+}
+.overlay5{
+  top: 0px;
+  width: 100%;
+  height: 0px;
+  background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
+  transition: all 0.5s ease-in-out;
+}
+
+.data-info{
+  top: 20%;
+  padding: 20px;
+  z-index: 1;
+  text-align: center;
+  display: none;
+  font-weight: 650 !important;
+  font-size: 22px;
+}
+.data-cardsss:hover .overlay5{
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.data-cardsss:hover .data-info{
+  display: block;
+}
+.abt-title h2{
+  font-size: 70px;
+  width: 600px;
+  font-weight: 800;
+}
+.abt-info h6{
+  font-size: 25px;
+  width: 1000px;
+  line-height: 170%;
+}
+.team-pic img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.team-grid{
+  width: 100%;
+  height: 400px;
+  padding: 30px 30px;
+  background-color: #e66a35;
+}
+.teamwise h3{
+  font-weight: 650;
+  font-size: 28px;
+  padding: 20px 0px;
+}
+.scoreboard tr , .scoreboard td , table thead th{
+ padding: 10px 40px;
+ width: 100%;
+
+}
+
+.accordion-button , .accordion-button:not(.collapsed){
+
+  background-color: rgb(230, 106, 53);
+  color: #fff;
+  height: 100px;
+  font-weight: 700;
+  font-size: 28px;
+}
+.accordion-body{
+  background-color: #000;
+  color: #fff;
+}
+
+table thead th:nth-child(1) , table tbody td:nth-child(1){
+  text-align: left;
+}
+
+table thead th{
+  font-size: 20px;
+}
+
+
+table thead th , table tbody td{
+  text-align: center;
+}
+
+table tbody tr:nth-child(odd){
+background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
+color: #232020;
 }

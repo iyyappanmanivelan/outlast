@@ -4,14 +4,18 @@
   "private": true,
   "dependencies": {
     "aos": "^2.3.4",
+    "axios": "^1.8.4",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "framer-motion": "^12.6.3",
+    "ogl": "^1.0.11",
     "react": "^19.0.0",
     "react-bootstrap-icons": "^1.11.5",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
-    "swiper": "^11.2.0"
+    "swiper": "^11.2.0",
+    "vercel": "^41.6.2"
   },
   "scripts": {
     "start": "react-scripts start",

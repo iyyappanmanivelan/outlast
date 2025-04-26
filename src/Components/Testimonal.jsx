@@ -10,8 +10,8 @@ import { Star, StarFill } from "react-bootstrap-icons";
 
 function Testimonal() {
   return (
-    <section>
-      <div className="container-fluid p-0">
+    <section className="">
+      <div className="container-fluid p-0 ">
         <div className="testimonal position-relative">
           <div className="test-img position-relative">
             <img src="\assets\turf.jpg" className="img-fluid" />

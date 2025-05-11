@@ -5,6 +5,7 @@ html , body{
   font-weight: 600;
   font-style: normal;
   overflow-x: hidden !important;
+  background-color: rgb(12, 12, 12) !important;
 }
 a{
   text-decoration: none;
@@ -79,7 +80,7 @@ a{
   color: #bc9c23;
   font-size: 40px;
 }
-.getknow-sub h3 , .programm-sub h3 , .gt-subtitle h3 , .test-title h3 , .latest-title h3 , .jn-title h3{
+.getknow-sub h3 , .programm-sub h3 , .gt-subtitle h3 , .test-title h3 , .latest-title h3 , .jn-title h3 , .leg-title h3{
   font-weight: 650; 
   font-size: 40px;
 }
@@ -96,7 +97,9 @@ a{
   padding: 35px;
   border-radius: 0px 40px 0px 40px;
   box-shadow: rgb(255 242 242 / 74%) -1px 1px 15px 4px;
-  background-color: #000;
+  background-image: linear-gradient(#bc9c23, #e0d39b, #e0d39c) !important;
+
+  
 }
 .program{
   background-color: #05508b14;
@@ -123,7 +126,21 @@ a{
   margin: 15px 0px;
 
 }
+.abbg{
+  background: url("/public/assets/about.jpg");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.gbg{
+    background: url("/public/assets/gallery.jpg");
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* .pgbox{
   background-color: #e0d39b;
@@ -144,11 +161,13 @@ a{
 .programm-card{
   padding: 35px;
   border-radius: 0px 40px 0px 40px;
-  box-shadow: rgb(255 242 242 / 74%) -1px 1px 15px 4px;
-  background-color: #000;
+  background-color: #000 !important;
   height: 650px;
   padding: 50px 60px;
 }
+
+
+
 .player-growth{
   top: 64%;
   display: flex;
@@ -220,6 +239,13 @@ a{
   height: 100%;
   background-color: #000000d4;
 }
+.overlay6{
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #0000009c;
+  z-index: 0;
+}
 .testmonal-info{
   top: 0px;
   width: 100%;
@@ -238,7 +264,9 @@ a{
   font-size: 16px
 }
 .news-img img{
-  width: 1000px;
+  width: 100%;
+  height:250px;
+  object-fit: cover;
   border-radius: 0px 20px 0px 20px;
   padding: 10px;
 }
@@ -259,6 +287,7 @@ a{
   border-radius: 20px;
   background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
   cursor: pointer;
+  height: 500px;
 }
 .news-box:hover .news-img img{
   rotate: -5deg;
@@ -304,7 +333,7 @@ a{
   border-radius: 50px;
 }
 .about-title{
-  z-index: 9999;
+  z-index: 1;
   top: 25%;
   color: white;
   width: 100%;
@@ -333,39 +362,6 @@ a{
 .story-sec h5{
   line-height: 130%;
 }
-/* .value-img{
-  width: 100%;
-}
-.value-img img{
-  width: 100%;
-  height: 500px !important;
-  object-fit: cover;
-}
-.cube-slide{
-  margin: 100px 50px
-}
-
-.vp-icon img{
-  width: 60px !important;
-  height: 50px !important;
-}
-.vp-icon{
-  border-radius: 100px;
-  padding: 10px 30px;
-}
-.overlay{
-  top: 0px;
-  left: 0px;
-  background-color: #e0d39b;
-  width: 0px;
-  height: 100%;
-  border-radius: 100px;
-}
-.u-box{
-  padding: 80px;
-  background-color: #9ecefe;
-} */
-
 
 .common-btn{
   font-size: 18px;
@@ -393,6 +389,9 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
 .choose-card{
   height:300px ;
 }
@@ -401,6 +400,7 @@ a{
   width: 100%;
   height: 100%;
   top: 0px;
+  left: 0px;
 }
 
 .choose-content{
@@ -419,13 +419,10 @@ a{
   font-size: 25px;
   width: 1000px;
   line-height: 170%;
-  margin: 80px 0px;
 }
 .Guided-title h4{
   font-size: 50px;
   font-weight: 650;
-  margin: 80px 0px;
-  color: lightgoldenrodyellow;
 }
 .plyr-dtl h6{
   font-size: 20px;
@@ -485,7 +482,6 @@ a{
   width: 100%;
   height: 400px;
   padding: 30px 30px;
-  background-color: #e66a35;
 }
 .teamwise h3{
   font-weight: 650;
@@ -499,12 +495,11 @@ a{
 }
 
 .accordion-button , .accordion-button:not(.collapsed){
-
-  background-color: rgb(230, 106, 53);
-  color: #fff;
+  background-color: #191818cc;
   height: 100px;
   font-weight: 700;
   font-size: 28px;
+  color: #fff;
 }
 .accordion-body{
   background-color: #000;
@@ -518,13 +513,159 @@ table thead th:nth-child(1) , table tbody td:nth-child(1){
 table thead th{
   font-size: 20px;
 }
+.scorebg{
+  background: url("/public/assets/coachbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:1200px;
+}
+.ctbg{
+  background: url("/public/assets/contact.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
 
 
 table thead th , table tbody td{
   text-align: center;
 }
+.teamboard{
+  background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
+  padding: 30px 0px;
+}
 
 table tbody tr:nth-child(odd){
-background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
+  background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
 color: #232020;
 }
+.leg-title h3{
+  letter-spacing: 4px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.leg-title h3:hover{
+  letter-spacing: 12px;
+  transition: all 0.5s ease-in-out;
+}
+.leg-cup img{
+  height: 600px;
+  object-fit: cover;
+}
+.leg-cup2 img{
+  height: 670px;
+  object-fit: cover;
+
+}
+.leg-point{
+background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
+border-radius: 80px 0px 0px 80px;
+  cursor: pointer;
+  height: 170px;
+
+}
+.leg-point h4{
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+}
+
+
+.leg-point p , .legpoint2 p{
+  font-size: 18px;
+}
+
+
+.legintro p{
+  font-size: 24px;
+}
+
+
+.legpoint2{
+  border-radius: 0px 80px 80px 0px !important;
+    background-color: #fff;
+  color: #000;
+  cursor: pointer;
+
+}
+
+.legpoint2 h4{
+  font-size: 22px;
+  font-weight: 900;
+  color: #bc9c23;
+}
+
+
+
+.legstep{
+  width: 100%
+}
+
+ .gallery-slider video{
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+ .gallery-main video{
+ 
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+
+}
+.caption{
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.input-box{
+  padding: 10px 0px;
+}
+.input-box input , .input-box select{
+  padding: 15px 10px;
+  margin: 5px;
+}
+
+.modal-dialog{
+  max-width: 600px !important;
+}
+.tm-pic h2{
+  font-size: 50px !important;
+  font-weight: 650 !important;
+}
+
+.form-control:focus , .form-select:focus{
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.formgrp{
+  margin: 20px 0px;
+}
+
+.formgrp input , .formgrp textarea{
+  padding: 15px 10px;
+}
+
+.formgrp label{
+  font-size: 22px;
+  margin: 15px 0px;
+}
+.formgrp button{
+background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
+font-size: 22px;
+font-weight: 900;
+}
+.mapad h5{
+  font-size: 22px;
+}
+.nm{
+  width: 160px;
+  text-align: center;
+}
+

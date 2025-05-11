@@ -2,16 +2,16 @@ import React from "react";
 
 function Ourstory({ data }) {
   return (
-    <section className="updown-space" >
+    <section className="updown-space text-light" >
       <div className="container">
         <div className="row">
             <div className="col-lg-6">
             <div className="getknow d-flex justify-content-start align-items-center gap-3">
           <div className="fticon">
-            <img src="\assets\football.png" className="img-fluid" />
+            <img src="\assets\football-og.png" className="img-fluid" />
           </div>
           <div className="gt-title">
-            <h4 className="m-0"> Our Story</h4>
+            <h4 className="m-0 cg"> Our Story</h4>
           </div>
         </div>
 

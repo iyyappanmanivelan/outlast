@@ -6,16 +6,15 @@ function Programms() {
     <>
       <section
         className="program updown-space"
-        style={{ backgroundColor: "hsl(17.97deg 77.97% 55.49%)" }}
       >
         <div className="container">
           <div className="pg-1">
             <div className="getknow d-flex justify-content-center align-items-center gap-3 ">
               <div className="fticon">
-                <img src="\assets\football-black.png" className="img-fluid" />
+                <img src="\assets\football-og.png" className="img-fluid" />
               </div>
               <div className="gt-title">
-                <h4 className="m-0 text-dark">Our Programms</h4>
+                <h4 className="m-0 cg">Our Programms</h4>
               </div>
             </div>
             <div className="programm-sub text-center my-5 text-light">
@@ -60,6 +59,7 @@ function Programms() {
               <div className="register-now text-center">
                 <button>Register Now</button>
               </div>
+
             </div>
 
             <div className="programm-card  my-5">
@@ -156,6 +156,7 @@ function Programms() {
             </div>
           </div>
         </div>
+
       </section>
     </>
   );

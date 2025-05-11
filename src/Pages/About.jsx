@@ -15,9 +15,12 @@ function About() {
     <>
 
     <Banner title={"About Us"} content={"Home | About Us"}/>
+    <Ourstory data={AboutData?.Our_story}/>
 
-    <div className="abt-contnet updown-space text-center">
-      <div className="container">
+
+    <div className="abt-contnet updown-space text-center text-light abbg position-relative">
+         <div className="position-absolute w-100" style={{zIndex:1}}>
+              <div className="container">
            <div className="abt-title d-flex justify-content-center">
            <h2>" You can't Win Unless you Learn How to Lose "</h2>
            </div>
@@ -27,18 +30,24 @@ function About() {
            </div>
            <h3>- Outlast F.C.</h3>
       </div>
+         </div>
+      <div className="overlay2 position-absolute "></div>
     </div>
+
+
+    <Whychoose data={AboutData?.Why_Choose} />
+
+
+    <Ourvalues data={AboutData?.Our_values} philo={AboutData?.Our_philosophy} />
 
 
     <Whyjoin/>
 
-    <Ourstory data={AboutData?.Our_story}/>
-
-    <Whychoose data={AboutData?.Why_Choose} />
-
     <Ourcoach coach={AboutData?.Our_coach?.images}/>
 
-    <Ourvalues data={AboutData?.Our_values} philo={AboutData?.Our_philosophy} />
+
+
+
 
     <Joinus/>
      

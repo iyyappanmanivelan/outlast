@@ -11,7 +11,7 @@ const router = useNavigate()
 
 
   return (
-    <section className="updown-space" style={{backgroundColor:"#0c0c0c"}}>
+    <section className="updown-space">
       <div className="why-join">
         <div className="container position-relative">
            <div className="row">
@@ -32,7 +32,7 @@ const router = useNavigate()
             <div className="gt-subtitle py-4 text-light">
                 <h3>Elevate Your Game, Expand Your Horizons with Us</h3>
               </div>
-              <div className="gt-prara">
+              <div className="gt-prara text-light">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               </div>
           </div>

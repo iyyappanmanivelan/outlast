@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
+import Banner from "../Commom/Banner";
+import Contactform from "../Components/Contactform";
+import Branch from "../Components/Branch";
 
 function Contacts() {
-    return (
-        <section>
-            <h1>Contact us</h1>
-            
-        </section>
-    )
+  return (
+    <section>
+      <Banner title={"Contact Us"} content={"Home | Contact Us"} />
+      <Branch />
+      <Contactform />
+    </section>
+  );
 }
 
-export default Contacts
+export default Contacts;

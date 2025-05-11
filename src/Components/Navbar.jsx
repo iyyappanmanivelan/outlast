@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Facebook, Instagram, Twitter, Youtube } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
+import Registerform from "./Registerform";
 
 function Navbar() {
+
+
+
   return (
     <section className="navhead" style={{ backgroundColor: "#222121" }}>
       <div className="container">
@@ -67,11 +71,14 @@ function Navbar() {
               </li>
             </ul>
             <div className="register-now">
-                <button className="btn">Register Now</button>
+                <button className="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
               </div>
           </div>
         </nav>
       </div>
+
+      <Registerform />
+      
     </section>
   );
 }

@@ -9,6 +9,7 @@ import Joinus from "../Components/Joinus";
 import axios from "axios";
 import { Instagram_Function } from "../Api/Insta_api";
 import Gallery from "../Components/Gallery";
+import Registerform from "../Components/Registerform";
 
 function Home() {
 
@@ -35,21 +36,15 @@ function Home() {
   },[])
 
 
-
-
-
   return (
     <>
       <Banner/>
       <Getoknow/>
-      {/* <Programms/> */}
       <Whyjoin/>
       <Testimonal/>
-      <Latestnews/>
+      <Latestnews blogs={data}/>
+      <Gallery data={data}/> 
       <Joinus/>
-      <Gallery data={data}/>
-
- 
 
     </>
   );

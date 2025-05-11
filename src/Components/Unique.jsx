@@ -2,7 +2,7 @@ import React from 'react'
 
 function Unique({data}) {
     return (
-        <section className='updown-space' style={{backgroundColor:"rgb(0 0 0 / 82%)"}}>
+        <section className='updown-space'>
             <div className="container">
             <div className="getknow d-flex justify-content-center align-items-center gap-3">
               <div className="fticon">

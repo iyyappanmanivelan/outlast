@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Banner from "./Banner";
 import { EnvelopeFill, Facebook, Instagram, TelephoneFill, Twitter, Youtube } from "react-bootstrap-icons";
 
+
 function Header() {
   return (
     <section>
@@ -45,6 +46,10 @@ function Header() {
       <div className="secondhead">
         <Navbar />
       </div>
+
+
+
+
     </section>
   );
 }

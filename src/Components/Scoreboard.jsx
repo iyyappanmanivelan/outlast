@@ -2,12 +2,10 @@ import React from "react";
 
 function Scoreboard({ table }) {
   return (
-    <section
-      className="updown-space"
-      style={{backgroundColor:"#0c0c0c"}}
-     
-    >
-      <div className="container">
+    <section className="updown-space scorebg position-relative">
+      <div className="overlay6 position-absolute"></div>
+      <div className="position-absolute w-100 ">
+        <div className="container">
         <div className="getknow d-flex align-items-center justify-content-center gap-3">
           <div className="fticon">
             <img src="\assets\football-og.png" className="img-fluid" />
@@ -16,8 +14,8 @@ function Scoreboard({ table }) {
             <h4 className="m-0 cg ">Scoreboard</h4>
           </div>
         </div>
-        <div class="accordion  mt-5 pt-5" id="accordionExample"  >
-          <div class="accordion-item" >
+        <div class="accordion  mt-5 pt-5" id="accordionExample">
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <div
                 class="accordion-button w-100"
@@ -64,7 +62,7 @@ function Scoreboard({ table }) {
               </div>
             </div>
           </div>
-          <div class="accordion-item" >
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <div
                 class="accordion-button collapsed"
@@ -73,7 +71,6 @@ function Scoreboard({ table }) {
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
                 aria-controls="collapseTwo"
-               
               >
                 Under 11
               </div>
@@ -112,7 +109,7 @@ function Scoreboard({ table }) {
               </div>
             </div>
           </div>
-          <div class="accordion-item" >
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <div
                 class="accordion-button collapsed"
@@ -121,7 +118,6 @@ function Scoreboard({ table }) {
                 data-bs-target="#collapseThree"
                 aria-expanded="false"
                 aria-controls="collapseThree"
-               
               >
                 Under 13
               </div>
@@ -160,7 +156,7 @@ function Scoreboard({ table }) {
               </div>
             </div>
           </div>
-          <div class="accordion-item" >
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingfour">
               <div
                 class="accordion-button collapsed"
@@ -169,7 +165,6 @@ function Scoreboard({ table }) {
                 data-bs-target="#collapsefour"
                 aria-expanded="false"
                 aria-controls="collapseThree"
-              
               >
                 Under 15
               </div>
@@ -209,6 +204,7 @@ function Scoreboard({ table }) {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
